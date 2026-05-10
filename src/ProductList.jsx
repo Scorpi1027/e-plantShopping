@@ -13,7 +13,7 @@ function ProductList({ onHomeClick }) {
           [product.name]: true, // Set the current product's name as a key with value 'true' to mark it as added
         }));
     };
-    const cartItems=useSelector(state => state.cart.items);
+    //const cartItems=useSelector(state => state.cart.items);
 
 
     const plantsArray = [
